@@ -1,0 +1,452 @@
+body{
+    width:100%;
+    height:100%;
+    background-color:#d2d5db; 
+    margin:0px;
+
+}
+html {
+    width:100%;
+    height:100%;
+}
+p.indent{
+    
+}
+.logo{
+    position: absolute;
+   top: 10px;
+   left: 8px;
+   width:160px;
+   height:160px;
+   box-shadow:0px 0px 0px ;
+   padding:0px;
+   margin:0px;
+   border-radius: 55%;
+}
+.logo:hover{
+    box-shadow: 2px 1px 20px 5px black; 
+}
+.review {
+     position:absolute;
+    right:20px;
+    top:305px;
+}
+
+h2.about-heart{
+     text-align:center;
+}
+h2.heart-review{
+     text-align:center;
+}
+.heart-pic{
+     position:absolute;
+    height:400px;
+    width:300px;
+    left:48%;
+    top:700px;
+    max-width:25%;
+    max-height:58%;
+}
+
+.heart-content {
+    position:absolute;
+    left:22%;
+    top:280px;
+    width: 73%;
+}
+
+.htd{
+    padding: 0px 20px 20px 20px;
+    font-size:18px;
+    width:50%;
+    vertical-align: top;
+}
+
+
+a.contact-picture{
+     position:absolute;
+    left:693px;
+    top:280px;
+   
+}
+.show {
+    position:absolute;
+    left:252px;
+    top:271px;
+    max-width:57.3%;
+    width:840px;
+    height:359px;
+}
+a.baby{
+    position:absolute;
+    left:35%;
+    top:885px;
+    Font-size:20px; 
+    width:640px;
+    height:460px;
+    max-width:50%;
+}
+.numbers{
+     position:absolute;
+    top:280px;
+    left:299px;
+    font-size:18px;
+    font-weight:400;
+}
+div.header{
+    background: linear-gradient(to bottom, #0066cc 0%, #0099ff 100%);
+padding: 60px;
+  text-align: center;
+
+  color: white;
+  font-size: 30px;
+
+}
+p.pic{
+    text-align:center;
+   position:absolute;
+  top:627px;
+  right:25px;
+}
+p.motto{
+    text-align:center;
+     position:absolute;
+    top:135px;
+    font-size:26px;
+    color:white;
+    left:35%;
+}
+h1.title{
+    font-family: serif;
+    color:white;
+     position:absolute;   
+     top:15px;
+     text-align:center;
+ 
+}
+.about{
+   position:absolute;
+  top:680px;
+  left: 54%;
+  text-align:center;
+}
+
+.ceo{
+    float:right;
+    width:300px;
+  height:350px;
+   position:absolute;
+ right:12px;
+ top:271px;
+  border-width:4px;
+  border-style:solid;
+  border-color:black;
+  max-width:25%;
+}
+.sidebar1 {
+    height:150%;
+    background-color:#a0a0a0;
+    position:static;
+    width:250px;
+    max-width:21%;
+}
+table.sidebar{
+    background-color:#a0a0a0;
+    width:250px;
+    max-width:20%;
+    height:300px;
+    margin-top:0px;
+}
+.first-button {
+  color: white;
+  padding: 0px;
+  font-size: 0px;
+  border: none;
+  
+  display: inline-block;
+  padding:0px;
+  margin:0px;
+}
+
+.ddm:hover {
+    transition: all .7s; 
+    
+}
+.ddm {
+ 
+  padding:0px;
+  margin:0px;
+}
+.sub-pages {
+  display: none;
+  position: relative;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+  border-radius: 20px;
+}
+.sub-pages-content {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+   border-radius: 25px;
+}
+.sub-pages-content:hover {
+    background-color: #a0a0a0;
+}
+.ddm:hover .sub-pages {
+    display: block;
+}
+.ddm:hover .first-bttn {
+    background-color: #3e8e41;
+}
+button{
+    text-decoration:none;
+    width:100%;
+    height:100%;
+    border:none;
+    border-radius: 25px;
+    background-color:inherit;
+    color:white;
+    padding:20px;
+    font-size:28px;
+    -webkit-transition:all .7s; /* Safari */
+    transition: box-shadow .7s;
+    cursor:pointer;
+}
+button.home-button:hover{
+    transition: all .7s; 
+    box-shadow: 2px 1px 20px 5px black; 
+    font-size:33px; 
+}
+button.first-button:hover{
+    transition: all .7s; 
+    box-shadow: 2px 1px 20px 5px black; 
+    font-size:33px; 
+}
+button.same-button:hover{
+    transition: all .7s; 
+    box-shadow: 2px 1px 20px 5px black; 
+    font-size:33px; 
+}
+button.contact-button:hover{
+    transition: all .7s; 
+    box-shadow: 2px 1px 20px 5px black; 
+    font-size:33px; 
+}
+p.info{
+    position: absolute;
+  top:710px;
+  left: 263px;
+  Font-size:20px;
+  font-family:serif;
+  width: 1125px;
+  max-width:77%;
+}
+.careers{
+    position: absolute;
+    top:375px;
+    left:200px;
+    font-size:18px;
+}
+td.reviews{
+    position: absolute;
+    left:595px;
+    top:767px;
+    text-indent:40px;
+}
+.cancer{
+    position: absolute;
+    top:280px;
+    left:254px;
+    font-size:18px;
+}
+h2.cancer-title{
+  position: absolute;
+    top:250px;
+    left:400px; 
+}
+.cancer-pic{
+    position: absolute;
+    top:300px;
+    right:15px;
+}
+.dropdown {
+  position:absolute;
+  display: inline-block;
+  
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #bababa;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 4px;
+  width:700px;
+  
+  z-index: 1;
+  height:420px;
+  
+ 
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  box-shadow:0px 0px 20px black;
+}
+.dropdown-content a {
+  color: black;
+  padding: 0px;
+  text-decoration: none;
+  display: block;
+  
+}
+.dropdown-content a:hover {
+    background-color: #bababa;
+}
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+li {
+ font-size:16px;font-weight: bold;
+}
+div.loc-content{
+    position:absolute;
+    left:300px;
+    top:300px;
+    width:75%;
+    height:110%;
+}
+div.locations{
+    
+    height:100%;
+    width:100%;
+}
+h2.h2location{
+    padding:0px;
+    margin:0px;
+}
+span {
+    padding:30px;
+}
+h2.behavioral-health{
+   
+     position: absolute;
+    top:260px;
+    left:640px;
+}
+p.behavioral-paragraph{
+   position: absolute;
+    top:300px;
+    left:420px;
+    font-size:18px;
+}
+h2.bphone{
+   position: absolute;
+    top:560px;
+    right:390px;
+}
+.bnumbers{
+    position:absolute;
+    top:585px;
+    right:280px;
+    font-size:18px;
+    font-weight:500;
+   
+}
+.gas{
+    position: absolute;
+    left:330px;
+    top:70px;
+}
+.Vol{
+    position: absolute;
+    left:330px;
+    top:70px;
+}
+.trent{
+    position:absolute;
+    left:330px;
+    top:50px;
+}
+.north{
+    position: absolute;
+    left:330px;
+    top:70px;
+}
+.milan{
+   position: absolute;
+    left:330px;
+    top:70px;
+}
+.Lexington{
+    position: absolute;
+    left:330px;
+    top:70px;
+}
+.kirk{
+    position:absolute;
+    left:330px;
+    top:70px;
+}
+.Humboldt{
+    position: absolute;
+    left:330px;
+    top:70px;
+}
+.dyer{
+    position: relative;
+    left:330px;
+    top:10px;
+}
+.Camden{
+    position: absolute;
+    left:330px;
+    top:70px;
+}
+.bolivar{
+    position: absolute;
+    left:330px;
+    top:70px;
+}
+.jmc{
+ position: absolute;
+    left:330px;
+    top:50px;
+}
+.lift{
+     position: absolute;
+    left:330px;
+    top:70px;
+}
+
+.iframe {
+    position:; absolute;
+    left:200px;
+    top:300px;
+}
+
+.brown{
+      position: absolute;
+    left:330px;
+    top:70px;
+    
+}
+.con-title{
+    position: absolute;
+    top:260px;
+    left:289px;
+   
+}
+p{
+    text-indent:40px;
+}
+img{
+    box-shadow:2px 2px 5px black;
+}
